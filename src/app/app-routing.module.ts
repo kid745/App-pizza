@@ -11,6 +11,18 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'size',
+    loadChildren: () => import('./size/size.module').then( m => m.SizePageModule)
+  },
+  {
+    path: 'topping',
+    loadChildren: () => import('./topping/topping.module').then( m => m.ToppingPageModule)
+  },
+  {
+    path: 'assortments',
+    loadChildren: () => import('./assortments/assortments.module').then( m => m.AssortmentsPageModule)
+  },
 ];
 
 @NgModule({

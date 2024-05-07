@@ -1,0 +1,101 @@
+ion-header {
+    border-radius: 0px 0px 40px 40px;
+
+}
+
+ion-toolbar {
+    --background: #00A76F;
+    color: white;
+    width: Hug (390px)px;
+    height: Hug (90px)px;
+    padding: 0px 0px 8px 0px;
+    gap: 8px;
+    border-radius: 0px 0px 40px 40px;
+    opacity: 0px;
+
+    ion-title {
+        gap: 0px;
+        opacity: 0px;
+        font-family: Arial;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.76px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ion-buttons {
+        ion-icon {
+            .chevron-back-outline {
+                width: 9px;
+                height: 17px;
+                top: 17px;
+                left: 9px;
+                gap: 0px;
+                border: 2.4px 0px 0px 0px;
+                opacity: 0px;
+                --angle: -180 deg;
+                background: #FFFFFF;
+                color: #FFFFFF;
+            }
+
+            .notifications-outline {
+                width: 18px;
+                height: 21px;
+                gap: 0px;
+                opacity: 0px;
+                background: #FFFFFF;
+                color: #FFFFFF;
+
+            }
+        }
+    }
+}
+
+.search-filter {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-filter ion-icon {
+    font-size: 24px; // Điều chỉnh kích thước của icon
+    border-radius: 50%; // Tạo hình tròn
+    background-color: #fff; // Màu nền của icon
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); // Tạo bóng cho icon
+    padding: 8px; // Điều chỉnh khoảng cách giữa icon và khung bao quanh
+    margin-right: 8px; // Khoảng cách giữa icon và searchbar
+}
+
+ion-searchbar {
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 59px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+icon-card {
+    width: Fixed (358px)px;
+    height: Hug (87px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    border: 0.2px 0px 0px 0px;
+    --justify: space-between;
+    opacity: 0px;
+
+}
+
+ion-col {
+    display: block;
+
+    ion-toggle {
+        float: right;
+        margin-bottom: 10px;
+
+    }
+}
